@@ -1,10 +1,11 @@
-import logo from './logo.svg';
-import './App.css';
+import './style.css';
+import Header from './Header';
+import {Bar} from './Bar';
 
-function App() {
+const App = () => {
   return (
     <div>
-      
+      <Header />
     </div>
   );
 }
