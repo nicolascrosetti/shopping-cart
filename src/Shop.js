@@ -12,7 +12,10 @@ const Shop = () => {
     const [items, setItems] = useState([
         {name: 'Black T-Shirt', price: 25, id: uuidv4(), units: 1, image: require('./images/blacktshirt.jpg')},
         {name: 'Grey Sweater', price: 35, id: uuidv4(), units: 1, image: require('./images/greysweater.jpg')},
-        {name: 'Green Shirt', price: 30, id:uuidv4(), units: 1, image: require('./images/greenshirt.jpg')}
+        {name: 'Green Shirt', price: 30, id:uuidv4(), units: 1, image: require('./images/greenshirt.jpg')},
+        {name: 'White T-Shirt', price: 25, id:uuidv4(), units: 1, image: require('./images/whitetshirt.jpg')},
+        {name: 'Radiohead T-Shirt', price: 27, id:uuidv4(), units: 1, image: require('./images/radioheadtshirt.jpg')},
+        {name: 'Black Hoodie', price: 33, id:uuidv4(), units: 1, image: require('./images/blackhoodie.jpg')}
     ]);
     const [cartItems, setCartItems] = useState([]);
     const [total, setTotal] = useState(0);

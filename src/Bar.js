@@ -6,7 +6,7 @@ export const Bar = ({totalUnits, modalBackground}) => {
     }
 
     return (
-        <div id='items-bar'>
+        <div className='items-bar'>
             <img id="cart-icon" src={cartIcon} alt='cart' onClick={clickHandler} />
             <p>Selected Items: {totalUnits}</p>
         </div>
